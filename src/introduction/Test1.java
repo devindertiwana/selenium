@@ -20,8 +20,7 @@ public class Test1 {
 		System.out.println(driver.getTitle());
 		driver.findElement(By.id("identifierId")).sendKeys("devindertiwana");		
 		driver.findElement(By.linkText("Learn more")).click();
-		
-		//driver.findElement(By.id("identifierNext")).click();
+		System.out.println(driver.findElement(By.id("identifierNext")).click());
 		//driver.quit();
 	}
 
