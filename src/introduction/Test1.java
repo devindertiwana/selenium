@@ -18,6 +18,7 @@ public class Test1 {
 		driver.get("https://www.gmail.com");
 		//driver.getTitle();
 		System.out.println(driver.getTitle());
+		System.out.println("branch 1");
 		driver.findElement(By.id("identifierId")).sendKeys("devindertiwana");		
 		driver.findElement(By.linkText("Learn more")).click();
 		System.out.println(driver.findElement(By.id("identifierNext")).click());
