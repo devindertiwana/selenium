@@ -23,6 +23,8 @@ public class Test1 {
 		driver.findElement(By.linkText("Learn more")).click();
 		System.out.println(driver.findElement(By.id("identifierNext")).click());
 		//driver.quit();
+
+		//clone user edited
 	}
 
 }
